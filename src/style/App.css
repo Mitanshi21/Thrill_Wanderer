@@ -1,0 +1,629 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(140, 216, 239);
+}
+.error{
+    color: black;
+    font-size: 2vw;
+    font-weight: 400;
+    backdrop-filter: blur(40px);
+    background-color: #ffffff8c;
+}
+.Login, .SignUp {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #8caa9d;
+    color: white;
+}
+.SignUp p{
+    font-size: 2vw;
+    margin: 1%;
+}
+.SignUp .main{
+    margin: 6%;
+}
+.main {
+    box-shadow: 0px 0px 40px 15px black;
+    padding: 5%;
+    width: 50%;
+    margin: 10%;
+}
+
+span {
+    color: red;
+    font-size: 1vw;
+}
+
+.Header {
+    background-color: rgba(172, 172, 172, 0.669);
+    font-size: 1.3vw;
+}
+
+.nav-link:hover {
+    color: orangered;
+}
+
+.Footer {
+    background-color: black;
+    padding: 5%;
+    color: white;
+}
+
+.Footer .row {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+.Footer h1 {
+    margin-bottom: 5%;
+}
+
+.Footer p {
+    text-wrap: balance;
+}
+
+p {
+    text-wrap: balance;
+}
+
+.Footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.Footer a:hover {
+    color: orangered;
+}
+
+.Footer2 i {
+    color: white;
+    font-size: 2vw;
+}
+
+.Footer2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Home img {
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.Home h1 {
+    font-size: 15vw;
+    color: aliceblue;
+    /* height: 20rem; */
+    text-align: center;
+    padding: 1%;
+    /* backdrop-filter: blur(40px); */
+}
+
+.Home2 {
+    top: 51%;
+    position: absolute;
+    left: 0%;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Home_Content {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bolder;
+    font-size: 3vw;
+    line-height: 90%;
+    padding: 5%;
+}
+
+.btn {
+    background-color: white;
+    color: orangered;
+}
+
+.btn:hover {
+    background-color: orangered;
+    color: white;
+    transition: 2s;
+}
+
+.Home_Content .col-sm-6 {
+    text-align: center;
+}
+
+.Home_Content2 {
+    background-color: #182825;
+    padding: 5%;
+    color: white;
+}
+
+.Home_Content2 .col-sm-3 {
+    margin: 1%;
+}
+
+.Home_Content2 h2 {
+    font-weight: 900;
+    margin-bottom: 5%;
+}
+
+.Home_Content2 img {
+    border-radius: 5%;
+    height: 90%;
+    object-fit: cover;
+    margin-top: 5%;
+}
+
+.Home_Content2 p {
+    font-size: 1vw;
+}
+
+.card .btn,
+.Home_Content3 .btn,
+.Home_Content5 .btn,
+.SignUp .btn,
+.btn1 {
+    background-color: orangered;
+    color: white;
+}
+
+.card .btn:hover,
+.Home_Content3 .btn:hover,
+.Home_Content5 .btn:hover,
+.SignUp .btn:hover,
+.btn1:hover {
+    background-color: white;
+    color: orangered;
+    transition: 2s;
+}
+
+.card {
+    box-shadow: 1px 1px 20px 1px rgba(255, 255, 255, 0.5);
+}
+
+.Home_Content3 {
+    background-color: #182825;
+    padding: 5%;
+    padding-bottom: 10%;
+}
+
+.Home_Content3 .container {
+    background-color: rgb(219, 218, 218);
+    border-radius: 25px;
+    padding: 4%;
+    text-align: center;
+    justify-content: center;
+}
+
+.Home_Content3 span,.Contact_Area span,.Home_Content5 span,.exp span {
+    color: orangered;
+}
+
+.Home_Content3 p, .Home p, .Home_Content5 p,.exp p,.About_Content p {
+    font-size: 2vw;
+    font-weight: 600;
+}
+
+.Home_Content3 span,
+.Home_Content3 h2,.About_Content h2,.Home_Content5 span,.Home_Content5 h3,.exp span,.exp h2 {
+    font-size: 4vw;
+    font-weight: 800;
+}
+.Home_Content3 .row{
+   margin-left: 10%;
+}
+.Home_Content3 img {
+    border-radius: 5%;
+    margin-bottom: 9%;
+}
+
+.Home_Content3 .col-sm-3 {
+    padding: 1%;
+    background-color: white;
+    margin: 2%;
+    border-radius: 5%;
+}
+
+.Home_Content4 {
+    background-color: rgb(20, 44, 36);
+    background: linear-gradient(180deg, #182825 12.702702702702704%, rgba(24, 40, 37, 0) 49.95066875245636%, #182825 79.1891891891892%);
+    margin: 0;
+}
+.overlay{
+    background-color: rgb(20, 44, 36);
+    background: linear-gradient(180deg, #182825 12.702702702702704%, rgba(24, 40, 37, 0) 49.95066875245636%, #182825 79.1891891891892%);
+    padding: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.overlay h2 {
+    color: white;
+    text-align: center;
+    font-size: 5vw;
+    font-weight: 900;
+}
+.overlay .btn{
+    width: 50%;
+}
+
+.Home_Content5 {
+    background-color: #182825;
+    color: white;
+    padding: 5%;
+}
+.Home_Content5 .col-2{
+    text-align: center;
+    padding: 2%;
+}
+.Blog{
+    padding: 5%;
+    background-color: #1b4949;
+    color: white;
+    color: orangered;
+}
+.Blog h2{
+    margin-top: 5%; 
+}
+.Blog p{
+    color: white;
+}
+.Blog_Describe{
+    background-color: #182825;
+    padding: 2%;
+    border-radius: 5px;
+    margin: 1%;
+}
+.items{
+    display: flex;
+}
+.items .card{
+    margin: 4%;
+    padding: 4%;
+    color: white;
+}
+.items .card:hover{
+    transform:scale(1.1);
+    transition: 2s;
+    box-shadow: 1px 1px 50px 1px rgba(110, 175, 255, 0.735);
+}
+.exp{
+    padding: 5%;
+    padding-bottom: 10%;
+    background-color: #182825;
+    color: white;
+}
+.exp h5{
+    color: gray;
+}
+.box{
+    padding: 2%;
+    margin: 5%;
+    width: 80%;
+    background-color: #ffffff;
+    color: black;
+    margin-left: 0;
+    border-radius: 25px;
+}
+
+
+.About_Head{
+    padding: 9%;
+    text-align: center;
+    font-size: 15vw;
+    color: #182825;
+}
+.About{
+    background-color: #182825;
+    color: #ffffff;
+   
+}
+.About_Content{
+    padding: 5%;
+}
+.About_Content img{
+    width: 100%;
+    margin: 5%;
+}
+
+.Destination_Head{
+    padding: 20%;
+    text-align: center;
+    font-size: 10vw;
+    color: white;
+    margin: 0 !important;
+}
+.D_Content{
+    padding: 5%;
+    background-color: #182825;
+    color: white;
+}
+.inner1{
+    padding: 3%;
+    background-color: #314844;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 5%;
+}
+
+.mostInner{
+    display: grid;
+    /* flex-direction: row;
+     */
+    grid-template-columns: 1fr 1fr 1fr;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.mostInner .card h2{
+    font-size: 3vw;
+}
+.mostInner .card{
+    padding: 15%;
+    color: black;
+    margin: 5%;
+    /* width: 30%; */
+    /* height: auto; */
+    padding-bottom: 50%;
+}
+
+#middleFont_33{
+    color: white;
+}
+.inner1 h2{
+    font-size: 5vw;
+}
+.inner2{
+    background-color: #314838;
+}
+.inner3{
+    background-color: #314148;
+}
+.inner2 .mostInner h2, .inner3 .mostInner h2,.inner2 .mostInner h4,.inner3 .mostInner h4{
+    color: black;
+}
+.Place_Describe{
+    padding: 5%;
+    background-color: rgb(77, 108, 134);
+    background: linear-gradient(180deg, #3c8c8c 12.702702702702704%, rgba(24, 37, 40, 0) 49.95066875245636%, #3c8c8c 79.1891891891892%);
+    text-align: center;
+}
+.Place_Describe h2{
+    font-size: 5vw;
+    margin-bottom: 5%;
+}
+.Place_Describe p{
+    font-size: 1.4vw;
+    margin-bottom: 5%;
+
+}
+.Travel_Detail{
+    padding: 5%;
+    background-color: #182825;
+    color: white;
+}
+.t_inner{
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+}
+.t_inner .card{
+    padding: 15%;
+    margin: 2%;
+}
+.t_inner .card:hover{
+    transition: 2s;
+    transform: scale(1.2);
+}
+.t_inner2 h2{
+    margin-bottom: 5%;
+}
+.t_inner2 h5{
+    margin-bottom: 5%;
+}
+.Home_Content2 .card{
+    padding: 5%;
+    padding-bottom: 100%;
+    color: orangered;
+}
+.Contact_Area{
+    padding: 5%;
+    background-color: #182825;
+    color: white;
+    text-align: center;
+}
+.Contact_Area h1{
+    margin-bottom: 5%;
+}
+.Contact_Area span{
+    font-size: 4vw;
+}
+.Contact_Area input, .Contact_Area textarea{
+    color: #ffffff;
+    background: #17251f;
+    border-color: #4b726b;
+    box-shadow: 1px 1px 50px 1px rgba(110, 175, 255, 0.445);
+    padding: 2%;
+    font-size: 1vw;
+}
+.Contact_Area input::placeholder, .Contact_Area textarea::placeholder{
+    color: white;
+}
+.Contact_Area .btn{
+    background-color: white;
+    color: black;
+    margin: 5%;
+    padding: 1%;
+    width: 20%;
+}
+.Contact_Area .btn:hover{
+    color:white;
+    background: orangered;
+}
+.table{
+    color: white;
+    border: #8caa9d 1px solid;
+}
+.table th,.table td{
+    padding: 0.5%;
+}
+.table th{
+    color: orangered;
+    font-size: 1.2rem;
+}
+.YourBooking span{
+    font-size: 2rem;
+}
+.table{
+    margin-top: 2%;
+    background-color: #314148;
+}
+.YourBooking .container{
+    background-color: #3141488c;
+    margin: 2%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    padding: 2%;
+}
+.YourBooking{
+    background-color: #1b4949;
+    background: url('D:/thrill_wanderer/public/img/Manali2.jpg');
+    background-size: cover;
+    padding: 2%;
+}
+.Book_Appointment{
+    background-color: #182825;
+    padding: 12%;
+}
+.Book_Appointment .container{
+    background-color: white;
+    padding: 2%;
+}
+.Book_Appointment .col-5{
+    margin: 4%;
+}
+.icon{
+    padding: 10%;
+    font-size: 4vw;
+    padding-bottom: 0;
+    text-align: center;
+    color: orangered;
+}
+.icon i{
+    margin-right: 2%;
+}
+span, .Book_Appointment h3{
+    color: orangered;
+}
+.Book_Appointment form{
+    font-weight: 500
+}
+.Book_Appointment .btn{
+    border-color: orangered;
+}
+.Book_Appointment span{
+    font-size: 3vw;
+}
+
+@media screen and (max-width: 992px) {
+    .Home2{
+        display: none;
+    }
+    .Home_Content{
+        top: 90%;
+    }
+    .Home_Content{
+        display: none;
+    }
+}
+@media screen and (max-width: 600px){
+    .Book_Appointment .row{
+        display: grid;
+    }
+    .Book_Appointment .row .col-5{
+        width: auto;
+        padding: 0;
+    }
+    .Contact_Area .row{
+        display: grid;
+    }
+    .Contact_Area .row .col-6{
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .centered{
+        top:35%;
+    }
+    .Home_Content2 .row{
+        display: grid;
+    }
+    .Home_Content2 .row .col-sm-3, .Home_Content3 .row .col-sm-3{
+        width: auto;
+    }
+    .Home_Content2 .card{
+        padding-bottom: 50%;
+    }
+    .Home_Content3 .row{
+        margin-left: 0;
+        display: grid;
+    }
+    .items{
+        display: grid;
+    }
+    .box{
+        width: auto;
+    }
+    .D_Content .mostInner{ 
+        display: grid;
+    }
+    .mostInner .card{
+        width: auto;
+        padding: 30%;
+    }
+}
+@media screen and (max-width: 480px){
+    .centered{
+        top: 20%;
+    }
+    .Home_Content5 .btn1 {
+        width: 85vw;
+    }
+    .About_Content .col-4,.About_Content .col-8{
+        width: auto;
+    }
+    .About_Content img{
+        margin: 0;
+    }
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.gallery-container {
+    display: flex;
+    overflow-x: auto;
+    width: 100vw;
+    white-space: nowrap;
+}
+
+.gallery-item {
+    flex: 0 0 auto;
+    width: 00px; /* Adjust the width of each image as needed */
+    margin-right: 10px;
+}
