@@ -1,0 +1,3 @@
+Frontend: Current Folder(run npm start)
+Backend: Backend (Copy folder to XAMMP->htdocs->Backend)
+Database: minor_project.sql
